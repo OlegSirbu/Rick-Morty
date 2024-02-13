@@ -2,14 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const Button = (props) => {
+const Button = ({ className, type, disabled, children }) => {
     return (
-        <BTN
-            className={props.className}
-            type={props.type}
-            disabled={props.disabled}
-        >
-            {props.children}
+        <BTN className={className} type={type} disabled={disabled}>
+            {children}
         </BTN>
     );
 };
