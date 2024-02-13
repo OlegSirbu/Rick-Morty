@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const LinkCreate = () => (
+const LinkCreateMern = () => (
     <a
         href="https://mernjs.github.io/create-mern-app"
         target="_blank"
@@ -30,7 +30,7 @@ const Footer = () => {
                 <div className="row">
                     <WrapperStyle>
                         <CenterSpan>
-                            ©2021 <LinkCreate />
+                            ©2021 <LinkCreateMern />
                             <span>Some new text</span>
                         </CenterSpan>
                         <SignStyle>
