@@ -7,11 +7,11 @@ const WrapperStyle = styled.p`
 `;
 const SignStyle = styled.span`
     float: 'right';
-    line-height: '60px';
+    line-height: 70px;
 `;
 const CenterSpan = styled.span`
 text-align: 'center',
- line-height: '60px'
+ line-height: 70px;
 `;
 
 const FooterWrapper = styled.footer`
