@@ -19,7 +19,7 @@ const FooterWrapper = styled.footer`
     width: 100%;
 `;
 
-const LinkCreate = () => (
+const LinkCreateCopilot = () => (
     <a
         href="https://mernjs.github.io/create-mern-app"
         target="_blank"
@@ -48,7 +48,7 @@ const Footer = () => {
                 <div className="row">
                     <WrapperStyle>
                         <CenterSpan>
-                            ©2021 <LinkCreate />
+                            ©2021 <LinkCreateCopilot />
                             <span>Some new text</span>
                         </CenterSpan>
                         <SignStyle>
