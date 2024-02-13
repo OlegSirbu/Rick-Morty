@@ -49,6 +49,7 @@ const Footer = () => {
                     <WrapperStyle>
                         <CenterSpan>
                             ©2021 <LinkCreate />
+                            <span>Some new text</span>
                         </CenterSpan>
                         <SignStyle>
                             <b>By:</b> <LinkSign />
