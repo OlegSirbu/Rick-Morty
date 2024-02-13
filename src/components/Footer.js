@@ -1,17 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const createStyle = { textAlign: 'left', lineHeight: '60px' };
-const wrapperStyle = { textAlign: 'center', lineHeight: '60px' };
-const rightPartStyle = { float: 'right', lineHeight: '60px' };
+
 
 const Footer = () => {
     return (
         <FooterWrapper>
             <div className="container">
                 <div className="row">
-                    <p style={wrapperStyle}>
-                        <span style={createStyle}>
+                    <WrapperStyle>
+                        <CenterSpan>
                             ©2021{' '}
                             <a
                                 href="https://mernjs.github.io/create-mern-app"
@@ -21,8 +19,8 @@ const Footer = () => {
                                 {' '}
                                 Create MERN App
                             </a>
-                        </span>
-                        <span style={rightPartStyle}>
+                        </CenterSpan>
+                        <SignStyle>
                             <b>By:</b>{' '}
                             <a
                                 href="https://vijay-pratap-singh.netlify.app"
@@ -30,10 +28,10 @@ const Footer = () => {
                                 rel="noreferrer"
                             >
                                 {' '}
-                                Vijay Pratap Singh
+                                Singh
                             </a>
-                        </span>
-                    </p>
+                        </SignStyle>
+                    </WrapperStyle>
                 </div>
             </div>
         </FooterWrapper>
@@ -41,6 +39,21 @@ const Footer = () => {
 };
 
 export default Footer;
+
+const WrapperStyle = styled.p`
+    text-align: center;
+    line-height: '60px';
+`;
+const SignStyle = styled.span`
+	float: 'right';
+	line-height: '60px';
+`;
+const CenterSpan = styled.span`
+text-align: 'center',
+ line-height: '60px'
+`;
+
+const 
 
 const FooterWrapper = styled.footer`
     background-color: #fff;
