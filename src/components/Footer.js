@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const WrapperStyle = styled.p`
     text-align: center;
-    line-height: '60px';
+    line-height: 60px;
 `;
 const SignStyle = styled.span`
     float: 'right';
@@ -15,7 +15,7 @@ text-align: 'center',
 `;
 
 const FooterWrapper = styled.footer`
-    background-color: #fff;
+    background-color: #ffffff;
     width: 100%;
 `;
 
