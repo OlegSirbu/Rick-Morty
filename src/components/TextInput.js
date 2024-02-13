@@ -19,7 +19,7 @@ const Input = (props) => {
                     errors={errors}
                     name={field.name}
                     render={({ message }) => (
-                        <span style={{ color: 'red' }}>{message}</span>
+                        <ErrorMessageSpan>{message}</ErrorMessageSpan>
                     )}
                 />
             )}
@@ -37,6 +37,10 @@ Input.propTypes = {
 };
 
 export default Input;
+
+const ErrorMessageSpan = styled.span`
+    color: red;
+`;
 
 const TextInput = styled.div`
     margin-bottom: 16px;

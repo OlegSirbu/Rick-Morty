@@ -3,7 +3,6 @@ import { createLogger } from 'redux-logger';
 import { persistStore, persistReducer } from 'redux-persist';
 import { configureStore } from '@reduxjs/toolkit';
 import storage from 'redux-persist/lib/storage';
-
 import CoreReducer from './reducers/CoreReducer';
 import AuthReducer from './reducers/AuthReducer';
 
