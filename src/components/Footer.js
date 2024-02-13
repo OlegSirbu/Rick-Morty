@@ -26,7 +26,7 @@ const LinkCreateCopilot = () => (
         rel="noreferrer"
     >
         {' '}
-        Create MERN App with copilot!
+        Create MERN App
     </a>
 );
 
